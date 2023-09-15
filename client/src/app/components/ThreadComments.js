@@ -1,6 +1,6 @@
 export default function ThreadComments({ comments }) {
   return (
-    <div className="bg-gray-900 px-4 py-2 w-[98%]">
+    <div className="bg-gray-900 px-4 py-2">
       {comments.map((comment) => (
         <div className="mt-6 px-2 border-l border-gray-500/50">
           <div className="flex items-baseline">
