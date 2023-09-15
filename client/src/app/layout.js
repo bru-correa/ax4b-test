@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-gray-950">
       <body className={inter.className}>
         <Navbar />
         <main className="flex justify-center bg-gray-950">{children}</main>
